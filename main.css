@@ -1,9 +1,21 @@
+/* Custom font faces */
+
+@font-face {
+	font-family: SF-Light;
+	src: url('/assets/SanFranciscoDisplay-Light.otf');
+}
+
+@font-face {
+	font-family: SF-UltraLight;
+	src: url('/assets/SanFranciscoDisplay-Ultralight.otf');
+}
+
 body {
 	margin: 60px auto;
 	width: 70%;
 }
 nav ul, footer ul {
-	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-family: 'SF-UltraLight', 'Helvetica', 'Arial', 'Sans-Serif';
 	padding: 0px;
 	list-style: none;
 	font-weight: bold;
@@ -14,23 +26,32 @@ nav ul li, footer ul li {
 }
 a {
 	text-decoration: none;
-	color: #999;
+	color: #333;
+	font-family:'SF-Light', 'Helvetica', 'Arial', 'Sans-Serif';
 }
 a:hover {
 	text-decoration: underline;
 }
 h1 {
 	font-size: 3em;
-	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-family:'SF-Light', 'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
+	font-family:'SF-UltraLight', 'Helvetica', 'Arial', 'Sans-Serif';
 	font-size: 1.5em;
 	line-height: 1.4em;
 	color: #333;
 }
 footer {
+	font-family:'SF-Light', 'Helvetica', 'Arial', 'Sans-Serif';
 	border-top: 1px solid #d5d5d5;
-	font-size: .8em;
+}
+
+footer p {
+	font-size: .7em;
+	text-align: center;
+	color: #999;
+	margin-top: 5px;
 }
 
 ul.posts { 
