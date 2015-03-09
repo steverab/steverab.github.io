@@ -63,6 +63,15 @@ ul.posts li {
 	list-style: none;
 }
 
+blockquote {
+	font-size: 1.2em;
+	border-left: 2px #999 solid;
+	padding: 0.2em 10px;
+	color: #999;
+	font-family:'SF-Light', 'Helvetica', 'Arial', 'Sans-Serif';
+	overflow: hidden;
+}
+
 /*Retina stuff*/
 
 @media 
