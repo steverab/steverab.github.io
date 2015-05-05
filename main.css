@@ -1,49 +1,39 @@
-/* Custom font faces */
-
-@font-face {
-	font-family: SF-Light;
-	src: url('/assets/SanFranciscoDisplay-Light.otf');
-}
-
-@font-face {
-	font-family: SF-UltraLight;
-	src: url('/assets/SanFranciscoDisplay-Ultralight.otf');
-}
-
 body {
 	margin: 60px auto;
 	width: 70%;
+	font-family:'Avenir', 'Helvetica', 'Arial', 'Sans-Serif';
 }
-nav ul, footer ul {
-	font-family: 'SF-UltraLight', 'Helvetica', 'Arial', 'Sans-Serif';
-	padding: 0px;
-	list-style: none;
-	font-weight: bold;
+
+h1 {
+	font-size: 3em;
+	font-weight: normal;
 }
-nav ul li, footer ul li {
-	display: inline;
-	margin-right: 20px;
+
+p {
+	font-size: 1.25em;
+	line-height: 1.4em;
+	color: #555;
 }
+
 a {
 	text-decoration: none;
-	color: #333;
-	font-family:'SF-Light', 'Helvetica', 'Arial', 'Sans-Serif';
+	font-weight: 500;
+	color: #000;
 }
+
 a:hover {
 	border-bottom: 1px solid #333;
 }
-h1 {
-	font-size: 3em;
-	font-family:'SF-Light', 'Helvetica', 'Arial', 'Sans-Serif';
+
+blockquote {
+	font-size: 1.25em;
+	border-left: 2px #999 solid;
+	padding: 0.0em 15px;
+	color: #999;
+	overflow: hidden;
 }
-p {
-	font-family:'SF-UltraLight', 'Helvetica', 'Arial', 'Sans-Serif';
-	font-size: 1.5em;
-	line-height: 1.4em;
-	color: #333;
-}
+
 footer {
-	font-family:'SF-Light', 'Helvetica', 'Arial', 'Sans-Serif';
 	border-top: 1px solid #d5d5d5;
 }
 
@@ -54,8 +44,19 @@ footer p {
 	margin-top: 5px;
 }
 
-ul.posts { 
-	margin: 20px auto 40px; 
+nav ul, footer ul {
+	padding: 0px;
+	list-style: none;
+	font-weight: bold;
+}
+
+nav ul li, footer ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+ul.posts {
+	margin: 20px auto 40px;
 	font-size: 1.5em;
 }
 
@@ -63,23 +64,14 @@ ul.posts li {
 	list-style: none;
 }
 
-blockquote {
-	font-size: 1.2em;
-	border-left: 2px #999 solid;
-	padding: 0.2em 10px;
-	color: #999;
-	font-family:'SF-Light', 'Helvetica', 'Arial', 'Sans-Serif';
-	overflow: hidden;
-}
+/* --- Retina stuff --- */
 
-/*Retina stuff*/
-
-@media 
-(-webkit-min-device-pixel-ratio: 2){ 
+@media
+(-webkit-min-device-pixel-ratio: 2){
 	footer {
 		border-top: 0.5px solid #d5d5d5;
 	}
-	
+
 	a:hover {
 		border-bottom: 0.5px solid #333;
 	}
