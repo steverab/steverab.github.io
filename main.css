@@ -1,7 +1,11 @@
 body {
-	margin: 60px auto;
-	width: 70%;
+	margin: 40px auto;
+	max-width: 900px;
 	font-family:'Avenir', 'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+div.container {
+	margin: 0px 20px;
 }
 
 h1 {
