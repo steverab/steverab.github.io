@@ -15,6 +15,10 @@ p {
 	color: #555;
 }
 
+li {
+	font-size: 1.25em;
+}
+
 a {
 	text-decoration: none;
 	font-weight: 500;
@@ -53,6 +57,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
 	display: inline;
 	margin-right: 20px;
+	font-size: 1.0em;
 }
 
 ul.posts {
