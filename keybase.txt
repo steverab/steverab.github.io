@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/steverab
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://steverab.com
+  * I am steverab (https://keybase.io/steverab) on keybase.
+  * I have a public key with fingerprint 3265 55C2 B5AE 4131 453D  D1A1 825C 7127 5FAA 8C61
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.8"
+        },
+        "key": {
+            "fingerprint": "326555c2b5ae4131453dd1a1825c71275faa8c61",
+            "host": "keybase.io",
+            "key_id": "825C71275FAA8C61",
+            "uid": "03fce8de785226229da1cef2b9f2a519",
+            "username": "steverab"
+        },
+        "merkle_root": {
+            "ctime": 1432652023,
+            "hash": "9f22a94e51f3791e74af743e8da02f22d1c712ff48958a844e78c7b1f4e77d0594c15ecd28676801ede9cbd642a27e27f3948dc81f68de58feae926d99fc2a5b",
+            "seqno": 226403
+        },
+        "service": {
+            "hostname": "steverab.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1432652102,
+    "expire_in": 157680000,
+    "prev": "39787b6458e29e7725a1d08c2858531eb103be0774dc5851ddd8ec5643d1c630",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owFdkl9oHEUcx+9M/6SJYkQORPKQbmgo5XrdmZ3ZmT2tJRTyEgoBjeKDPebf3q1N
+di+729QjSQNWU4Jt7EMV7IMJoTVolUDrQ2o1hZqIsUVEQjUIioRAA6IGCiIRdeaI
+aN2n2fl9f7/f9/P7zbmHGjJN2W9XHpkdWHuNZW+t80yvHO8asngka1ZxyBJ9gQpT
+cwpZv7KK1jFV4yxRhSBqCyOpCi8mbVuavDWo4iSIQq2yC6RArZG8kZtkPwjLKq7G
+gallOdDFGAvIMVMIOABhR0rAAIVYEAAJ9hmjwgW6ZCVK0vu6WvWapUDqW60/XNd3
+dXbSw3X98XrAdnyhqFSEYghdCD3JgFA+5J4PGQaeESYq3kJKUqWdM2789qv4WJ8q
+xVFUhxZpYCQAGcvQho52xJKKTtKVIPOQwsB3iAcUQcwnyNFdmQ11TAKD4vuIepgy
+ipA2IwgHvj4QaWMPCYCVkJC6xKU2UFJ5gksXQQaJgsR3PESloMB3NQimvmLKg670
+PF9oBq4REjUQRlZREyLbGTH/8WAglPFtxvY/uoKI+nVSNY7SSER9OlJJ02rRQKe1
+qlGeULz0wVaREg9CqZf2360CLb1/IMCGeUu9VA1iVQqMAhsW/Zk+atCs2iOUcBdh
+qqCnySFmQNpUQIopdoDiwHa4sglBUugbIKWkSmAXOXqArmP/i6lHn7KyAQrKIUuP
+x8oaGc+2bstkmzI7tj9gnm2maVfLP2/5t707/8z/2vN+z0DXd+uU/74/d+X1hq9/
+3phZvf7RnuHlVyfLY9kfakszi6V37pWPTPa2fP/0x7OzCydzwzOPTd85eunyyuj1
+Q7mf9pU3W17+8NGjr0zM8Xd7Nj6/cOqgf+nJuZO7K/mpibMbz7a2s+LD22+fe+pU
+jU99cvPg1DefvTeNJjv2bS5OxIdal7Plhc3L964trexa6BhMbl+88dfzzed3d9xd
+5nvfjq6N5kc3htfHGi82zO3cc+GtRuuLMye+/DS5E57pnI8G1ppXn2tc+uNG7qsH
+fzw7x3D36i/t28SBofZSJ3lzbX78dHB6vrmcqzwz/fiR7jb2Aj1/9erdJ7rfWFns
+3b/j1tDYyN8=
+=i/3t
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/steverab
+
+==================================================================
