@@ -8,6 +8,12 @@ div.container {
 	margin: 0px 20px;
 }
 
+hr {
+	border: 0;
+  height: 0.5px;
+  background: #d5d5d5;
+}
+
 h1 {
 	font-size: 3em;
 	font-weight: normal;
@@ -17,6 +23,7 @@ p {
 	font-size: 1.25em;
 	line-height: 1.4em;
 	color: #555;
+	overflow: hidden;
 }
 
 li {
