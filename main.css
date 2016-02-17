@@ -80,6 +80,15 @@ ul.posts li {
 	list-style: none;
 }
 
+.post-title {
+	margin-bottom: 10px;
+}
+
+.post-meta {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 /* --- Retina stuff --- */
 
 @media
