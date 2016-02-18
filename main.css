@@ -1,5 +1,6 @@
 body {
 	margin: 40px auto;
+	margin-bottom: 10px;
 	max-width: 900px;
 	font-family:'Avenir', 'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -56,7 +57,7 @@ footer p {
 	font-size: .7em;
 	text-align: center;
 	color: #999;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 
 nav ul, footer ul {
@@ -252,10 +253,10 @@ p code:hover {
     color: #099; }
 
 .highlight .code pre {
-	/*margin-left: 5px;
-	margin-right: 5px;*/
 	margin: 5px 10px;
-	overflow: hidden;
+	width: auto;
+	overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 td.gutter.gl {
@@ -264,9 +265,12 @@ td.gutter.gl {
 }
 
 .lineno {
-	/*margin-left: 10px;
-	margin-right: 10px;*/
 	margin: 5px 10px;
+}
+
+pre {
+	white-space: pre;
+	overflow: auto;
 }
 
 /* --- Retina stuff --- */
