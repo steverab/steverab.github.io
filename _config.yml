@@ -47,16 +47,16 @@ stephan:
 
 # Add links to the sidebar.
 menu:
-  #- title:             Hydejack
-  #  url:               /hydejack/
+  #- title:             Blog
+  #  url:               /
   #- title:             Hyde
   #  url:               /hyde/
   - title:             Résumé
     url:               /assets/resume.pdf
-  #- title:             About
-  #  url:               /about/
   - title:             Papers
     url:               /papers/
+  #- title:             About
+  #  url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
