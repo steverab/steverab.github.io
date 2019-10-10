@@ -24,11 +24,11 @@ title:                 Stephan Rabanser
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Intern Applied Sciencist at AWS AI Labs.
+  Intern Applied Sciencist at Amazon (AWS AI Labs).
 
 # A shorter description for the sidebar.
 tagline:               >
-  Intern Applied Sciencist at AWS AI Labs.
+  Intern Applied Sciencist at Amazon (AWS AI Labs).
 
 # A list of keywords for your blog
 keywords:              []
@@ -47,16 +47,16 @@ stephan:
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /
+  #- title:             Blog
+  #  url:               /
   #- title:             Hyde
   #  url:               /hyde/
   - title:             Résumé
     url:               /assets/resume.pdf
   - title:             Papers
     url:               /papers/
-  - title:             About
-    url:               /about/
+  #- title:             About
+  #  url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
