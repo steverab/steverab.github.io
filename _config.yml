@@ -24,11 +24,11 @@ title:                 Stephan Rabanser
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Intern Applied Scientist at Amazon (AWS AI Labs).
+  PhD Student @ University of Toronto and Vector Institute.
 
 # A shorter description for the sidebar.
 tagline:               >
-  Intern Applied Scientist at Amazon (AWS AI Labs).
+  PhD Student @ University of Toronto and Vector Institute.
 
 # A list of keywords for your blog
 keywords:              []
@@ -67,7 +67,7 @@ menu:
 #     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2019 Stephan Rabanser. All rights reserved.
+copyright:             © 2020 Stephan Rabanser. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
