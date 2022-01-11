@@ -41,7 +41,7 @@ logo:                  /assets/icons/icon.png
 # This should be the same author as first entry in `_data/authors.yml`.
 stephan:
   name:                Stephan Rabanser
-  email:               stephan@rabanser.dev
+  email:               stephan@cs.toronto.edu
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -67,7 +67,7 @@ menu:
 #     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2020 Stephan Rabanser. All rights reserved.
+copyright:             © 2020-2022 Stephan Rabanser. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
