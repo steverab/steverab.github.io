@@ -3,7 +3,7 @@
 # Change `author1` to your shortname.
 stephan:
   name:              Stephan Rabanser
-  email:             stephan@rabanser.dev
+  email:             stephan@cs.toronto.edu
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -35,7 +35,7 @@ stephan:
   social:
     twitter:         steverab
     github:          steverab
-    email:           stephan@rabanser.dev
+    email:           stephan@cs.toronto.edu
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
