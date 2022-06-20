@@ -53,8 +53,10 @@ menu:
   #   url:               /about/
   - title:             Resume
     url:               /assets/sr_resume.pdf
+  - title:             Teaching
+    url:               /teaching
   - title:             Publications
-    url:               /publications/
+    url:               /publications
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
