@@ -4,7 +4,7 @@
 {% assign i = 0 %}
 {% for author in entry.author_array %}
 {% if author.first == "Stephan" and author.last == "Rabanser" %} <span style="text-decoration: underline;">{% else %} <span> {% endif %}
-{{author.first}} {{author.last}}{% if i < num_fa %}*{% endif %}</span>{% unless forloop.last %},{% endunless %}
+{{author.first}} {{author.last}}</span>{% if i < num_fa %}*{% endif %}{% unless forloop.last %},{% endunless %}
 {% assign i = i | plus:1 %}
 {% endfor %}
 <br/>
