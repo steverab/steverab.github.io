@@ -55,8 +55,8 @@ menu:
     url:               /teaching
   - title:             Publications
     url:               /publications
-  - title:             Blog
-    url:               /publications
+  # - title:             Blog
+  #   url:               /blog
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
