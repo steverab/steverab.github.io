@@ -1,0 +1,23 @@
+
+
+{
+  "name": "Stephan Rabanser",
+  "short_name": "Stephan Rabanser",
+  "description": "PhD Student @ University of Toronto & Vector Institute.",
+  "icons": [
+    {
+      "src": "/https://rabanser.dev/assets/img/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/https://rabanser.dev/assets/img/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "start_url": "/https://rabanser.dev/index.html",
+  "theme_color": "#2a1e6b",
+  "background_color": "#ffffff",
+  "display": "fullscreen"
+}
+

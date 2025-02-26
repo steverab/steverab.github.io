@@ -1,1 +1,5 @@
-Sitemap: /sitemap.xml
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://rabanser.dev/https://rabanser.dev/sitemap.xml
