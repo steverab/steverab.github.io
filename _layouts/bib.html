@@ -29,24 +29,24 @@
 {% endif %}
 <br/>
 
-<p>
+<p class="">
     {% if entry.paper_url%}
-    <a class="btn btn-primary btn-sm" href="{{ entry.paper_url }}" target="_blank">Paper</a>
+    <a class="btn btn-info" href="{{ entry.paper_url }}" target="_blank">Paper</a>
     {% endif %}
     {% if entry.poster_url %}
-    <a class="btn btn-secondary btn-sm" href="{{ entry.poster_url }}" target="_blank">Poster</a>
+    <a class="btn btn-info" href="{{ entry.poster_url }}" target="_blank">Poster</a>
     {% endif %}
     {% if entry.slides_url %}
-    <a class="btn btn-secondary btn-sm" href="{{ entry.slides_url }}" target="_blank">Slides</a>
+    <a class="btn btn-info" href="{{ entry.slides_url }}" target="_blank">Slides</a>
     {% endif %}
     {% if entry.video_url %}
-    <a class="btn btn-secondary btn-sm" href="{{ entry.video_url }}" target="_blank">Video</a>
+    <a class="btn btn-info" href="{{ entry.video_url }}" target="_blank">Video</a>
     {% endif %}
     {% if entry.code_url %}
-    <a class="btn btn-secondary btn-sm" href="{{ entry.code_url }}" target="_blank">Code</a>
+    <a class="btn btn-info" href="{{ entry.code_url }}" target="_blank">Code</a>
     {% endif %}
     {% if entry.blog_url %}
-    <a class="btn btn-secondary btn-sm" href="{{ entry.blog_url }}" target="_blank">Blog Post</a>
+    <a class="btn btn-info" href="{{ entry.blog_url }}" target="_blank">Blog Post</a>
     {% endif %}
 </p>
 

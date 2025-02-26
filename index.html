@@ -1,13 +1,14 @@
 ---
 layout: page
-title: About
-description: >
-  
-cover: true
 ---
 
-<p>I am Stephan, a PhD student in Computer Science at the University of Toronto and a Machine Learning Researcher at the Vector Institute for Artificial Intelligence.</p>
+<h1>About</h1>
 
-<p>My research focuses on trustworthy machine learning. In particular, I am interested in making machine learning algorithms more reliable in real-world scenarios. As such, I mostly focus on uncertainty quantification methods, detection of anomalous/out-of-distribution data, robustness to distributional shifts, causality, and representation learning.</p>
-
-I have completed both my Bachelor's and my Master's in Computer Science at the Technical University of Munich. I was a Visiting Research Scholar at CMU working on distribution shift detection for high-dimensional data. I also conducted multiple research stays at Amazon / AWS AI Labs as part of their time series analysis / forecasting team where I have worked on various topics like introducing Bayesian neural networks for improved uncertainty quantification, exploring ML algorithms for data compression, analyzing the robustness of input and output representations in neural time series models, and introducing context-invariant multivariate time series representations.
+<div class="content">
+{% assign about_page = site.tabs | where_exp:"item", "item.path contains 'about.md'" | first %}
+{% if about_page %}
+  {{ about_page.content }}
+{% else %}
+  <p>About page not found.</p>
+{% endif %}
+</div>
