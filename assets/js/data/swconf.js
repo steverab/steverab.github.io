@@ -1,14 +1,14 @@
 const swconf = {
   
-    cacheName: 'chirpy-1740533462',resources: [
-      '/assets/css/jekyll-theme-chirpy.css',
-      '/',
+    cacheName: 'chirpy-1745614286',resources: [
+      '/https://rabanser.dev/assets/css/jekyll-theme-chirpy.css',
+      '/https://rabanser.dev/',
       
-        '/about/',
+        '/https://rabanser.dev/about/',
       
-        '/papers/',
+        '/https://rabanser.dev/papers/',
       
-        '/teaching/',
+        '/https://rabanser.dev/teaching/',
       
 
       
