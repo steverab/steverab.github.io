@@ -15,38 +15,38 @@
 {% endif %}
 ({{entry.year}})
 {% if entry.pub_type == "Conference" or  entry.pub_type == "Journal" %}
-<span class="badge-primary">{{entry.pub_type}}</span>
+<span class="badge text-bg-primary">{{entry.pub_type}}</span>
 {% elsif entry.pub_type == "Workshop" %}
-<span class="badge-warning">{{entry.pub_type}}</span>
+<span class="badge text-bg-warning">{{entry.pub_type}}</span>
 {% elsif entry.pub_type == "Thesis" %}
-<span class="badge-dark">{{entry.pub_type}}</span>
+<span class="badge text-bg-info">{{entry.pub_type}}</span>
 {% endif %}
 {% if entry.journal contains "arXiv" or entry.pub_type == "Preprint"%}
-<span class="badge-danger">Preprint</span>
+<span class="badge text-bg-danger">Preprint</span>
 {% endif %}
 {% if entry.pub_note %}
-<span class="badge-info">{{entry.pub_note}}</span>
+<span class="badge text-bg-success">{{entry.pub_note}}</span>
 {% endif %}
 <br/>
 
 <p class="">
     {% if entry.paper_url%}
-    <a class="btn btn-info" href="{{ entry.paper_url }}" target="_blank">Paper</a>
+    <a class="btn btn-light" href="{{ entry.paper_url }}" target="_blank">Paper</a>
     {% endif %}
     {% if entry.poster_url %}
-    <a class="btn btn-info" href="{{ entry.poster_url }}" target="_blank">Poster</a>
+    <a class="btn btn-light" href="{{ entry.poster_url }}" target="_blank">Poster</a>
     {% endif %}
     {% if entry.slides_url %}
-    <a class="btn btn-info" href="{{ entry.slides_url }}" target="_blank">Slides</a>
+    <a class="btn btn-light" href="{{ entry.slides_url }}" target="_blank">Slides</a>
     {% endif %}
     {% if entry.video_url %}
-    <a class="btn btn-info" href="{{ entry.video_url }}" target="_blank">Video</a>
+    <a class="btn btn-light" href="{{ entry.video_url }}" target="_blank">Video</a>
     {% endif %}
     {% if entry.code_url %}
-    <a class="btn btn-info" href="{{ entry.code_url }}" target="_blank">Code</a>
+    <a class="btn btn-light" href="{{ entry.code_url }}" target="_blank">Code</a>
     {% endif %}
     {% if entry.blog_url %}
-    <a class="btn btn-info" href="{{ entry.blog_url }}" target="_blank">Blog Post</a>
+    <a class="btn btn-light" href="{{ entry.blog_url }}" target="_blank">Blog Post</a>
     {% endif %}
 </p>
 
